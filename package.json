@@ -1,0 +1,30 @@
+{
+  "name": "astro-md-generator",
+  "version": "1.0.0",
+  "description": "Command-line interface (CLI) for adding new posts to your Astro project",
+  "author": {
+    "name": "GNDX"
+  },
+  "homepage": "https://npmjs.com/package/astro-md-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gndx/astro-md-generator.git"
+  },
+  "contributors": [
+    {
+      "name": "Oscar Barajas @gndx",
+      "email": "oscar@gndx.dev",
+      "url": "https://gndx.dev"
+    }
+  ],
+  "main": "src/index.ts",
+  "bin": {
+    "astro-md-generator": "./bin/global.js"
+  },
+  "keywords": [
+    "Astrojs",
+    "Markdown",
+    "MDX"
+  ],
+  "license": "MIT"
+}
